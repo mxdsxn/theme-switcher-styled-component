@@ -10,7 +10,7 @@ function App() {
   const [theme, setTheme] = usePersistedTheme<String>('theme', 'light')
 
   const toggleTheme = () => {
-    setTheme(theme === 'light' ? 'black' : 'light')
+    setTheme(theme === 'light' ? 'dark' : 'light')
   }
 
   return (
